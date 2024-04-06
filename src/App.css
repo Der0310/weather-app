@@ -1,0 +1,50 @@
+/*--------reset----------*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+}
+img{
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+ul{
+  list-style: none;
+}
+input,
+button {
+  display: inline-block;
+  font-family: inherit;
+  cursor: pointer;
+}
+button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: transform .5s;
+}
+
+button:hover {
+transform: scale(1.1);
+transition: transform .5s;
+}
+/*--------App----------*/
+
+.App {
+  background-image: url(https://t4.ftcdn.net/jpg/02/78/24/37/360_F_278243749_YcfWHYJO7cwU3Lq9RG6YX4HzYYvhjSQ7.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat ;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,31 @@
+.weather__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: #8888;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    max-width: 550px;
+}
+.weather__place {
+    font-size:1.25rem;
+}
+.weather__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 50px;   
+    flex-wrap: wrap;
+}
+.weather__description {
+    margin: 15px 0;
+    text-align: center;
+}
+.weather__item {
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    gap: 10px;
+}
